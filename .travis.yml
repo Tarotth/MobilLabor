@@ -30,7 +30,7 @@ notifications:
     on_success: always
     on_failure: never
 
-script: ./gradlew :app:build :app:connectedDebugAndroidTest
+script: ./gradlew :app:build
 
 env:
   global:
