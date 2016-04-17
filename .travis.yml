@@ -26,7 +26,7 @@ deploy:
 notifications:
   email:
     recipients:
-    - dudad333@gmail.com
+    - tarotth@gmail.com
     on_success: always
     on_failure: never
 
