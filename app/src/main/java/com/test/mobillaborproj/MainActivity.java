@@ -20,7 +20,17 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
+        View.OnClickListener onClickListener2 = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),MenuActivity.class));
+            }
+        };
+
         Button button = (Button) findViewById(R.id.my_button);
         button.setOnClickListener(onClickListener);
+
+        Button button2 = (Button) findViewById(R.id.my_button2);
+        button2.setOnClickListener(onClickListener2);
     }
 }

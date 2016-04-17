@@ -6,21 +6,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class CreateAccountActivity extends AppCompatActivity {
+public class DetailsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_create_account);
+        setContentView(R.layout.activity_details);
 
         View.OnClickListener onClickListener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                startActivity(new Intent(getApplicationContext(),UpdateDetailsActivity.class));
             }
         };
 
         Button button = (Button) findViewById(R.id.my_button);
         button.setOnClickListener(onClickListener);
+
     }
 }

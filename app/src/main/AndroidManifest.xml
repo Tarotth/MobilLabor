@@ -17,6 +17,16 @@
         </activity>
         <activity android:name=".CreateAccountActivity" >
         </activity>
+        <activity android:name=".MenuActivity" >
+        </activity>
+        <activity android:name=".FilmsActivity" >
+        </activity>
+        <activity android:name=".MyListActivity" >
+        </activity>
+        <activity android:name=".DetailsActivity" >
+        </activity>
+        <activity android:name=".UpdateDetailsActivity" >
+        </activity>
     </application>
 
 </manifest>
